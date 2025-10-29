@@ -1,0 +1,23 @@
+[project]
+name = "toon-py"
+version = "0.1.0"
+description = "Python implementation of TOON (Token-Oriented Object Notation) - a token-efficient JSON alternative for LLM prompts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
+]
