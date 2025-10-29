@@ -17,13 +17,13 @@ This implementation adheres to the [TOON v1.1 specification](https://github.com/
 ## Installation
 
 ```bash
-uv add toon-py
+uv add pytoon-core
 ```
 
 or
 
 ```bash
-pip install toon-py
+pip install pytoon-core
 ```
 
 Or install from source:
