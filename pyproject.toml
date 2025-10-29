@@ -1,5 +1,5 @@
 [project]
-name = "toon-py"
+name = "pytoon-core"
 version = "0.1.0"
 description = "Python implementation of TOON (Token-Oriented Object Notation) - a token-efficient JSON alternative for LLM prompts"
 readme = "README.md"
