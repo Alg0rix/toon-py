@@ -1,5 +1,7 @@
 # TOON Python Implementation
 
+[![PyPI version](https://img.shields.io/pypi/v/pytoon-core.svg)](https://pypi.org/project/pytoon-core/)
+
 A Python implementation of **TOON (Token-Oriented Object Notation)** - a token-efficient JSON alternative for LLM prompts, following the original [@byjohann/toon](https://github.com/johannschopplich/toon) TypeScript/JavaScript implementation.
 
 This implementation adheres to the [TOON v1.1 specification](https://github.com/johannschopplich/toon/blob/main/SPEC.md) and maintains compatibility with the original implementation.
