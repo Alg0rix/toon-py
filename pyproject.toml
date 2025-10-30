@@ -1,6 +1,6 @@
 [project]
 name = "pytoon-core"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python implementation of TOON (Token-Oriented Object Notation) - a token-efficient JSON alternative for LLM prompts"
 readme = "README.md"
 requires-python = ">=3.12"
