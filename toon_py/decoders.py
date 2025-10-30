@@ -20,7 +20,7 @@ from .parser import (
     parse_primitive_token,
 )
 from .scanner import LineCursor
-from .types import ArrayHeaderInfo, Depth, JsonArray, JsonObject, JsonPrimitive, JsonValue, ParsedLine, ResolvedDecodeOptions
+from .types import ArrayHeaderInfo, Depth, JsonArray, JsonObject, JsonValue, ParsedLine, ResolvedDecodeOptions
 
 
 def decode_value_from_lines(cursor: LineCursor, options: ResolvedDecodeOptions) -> JsonValue:

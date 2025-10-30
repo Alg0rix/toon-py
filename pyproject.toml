@@ -4,7 +4,37 @@ version = "0.1.0"
 description = "Python implementation of TOON (Token-Oriented Object Notation) - a token-efficient JSON alternative for LLM prompts"
 readme = "README.md"
 requires-python = ">=3.12"
+license = { text = "MIT" }
+keywords = [
+    "toon",
+    "json",
+    "llm",
+    "token-efficient",
+    "serialization",
+    "encoding",
+    "machine-learning",
+    "ai",
+    "data-format"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Alg0rix/toon-py"
+Documentation = "https://github.com/Alg0rix/toon-py#readme"
+Repository = "https://github.com/Alg0rix/toon-py"
+"Bug Tracker" = "https://github.com/Alg0rix/toon-py/issues"
+Changelog = "https://github.com/Alg0rix/toon-py/releases"
+"Source Code" = "https://github.com/Alg0rix/toon-py"
 
 [project.optional-dependencies]
 dev = [

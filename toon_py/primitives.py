@@ -9,7 +9,6 @@ import re
 from typing import Iterable, Optional
 
 from .constants import (
-    BACKSLASH,
     COMMA,
     DEFAULT_DELIMITER,
     DOUBLE_QUOTE,
