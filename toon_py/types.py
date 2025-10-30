@@ -8,7 +8,7 @@ to the source material.
 
 from typing import Dict, List, Optional, Union, Literal
 
-from .constants import DEFAULT_DELIMITER, Delimiter, DelimiterKey
+from .constants import DEFAULT_DELIMITER, Delimiter
 
 # Core JSON types
 JsonPrimitive = Union[str, int, float, bool, None]

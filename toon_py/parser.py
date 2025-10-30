@@ -7,7 +7,6 @@ handling array headers, delimited value parsing, and primitive interpretation.
 
 from __future__ import annotations
 
-import re
 from typing import List, Optional, Tuple
 
 from .constants import (
